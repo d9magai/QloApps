@@ -30,6 +30,8 @@ class AdminModulesCatalogControllerCore extends AdminController
 
     const MODULES_PER_PAGE = 18;
 
+    protected $themes;
+
     public function __construct()
     {
         $this->bootstrap = true;
@@ -73,12 +75,13 @@ class AdminModulesCatalogControllerCore extends AdminController
             $module->element_type = self::ELEMENT_TYPE_MODULE;
             $module->logo = '../../img/questionmark.png';
 
-            if (@filemtime(_PS_ROOT_DIR_.DIRECTORY_SEPARATOR.basename(_PS_MODULE_DIR_).DIRECTORY_SEPARATOR.$module->name
-                .DIRECTORY_SEPARATOR.'logo.gif')) {
+            $logoGifPath = _PS_ROOT_DIR_.DIRECTORY_SEPARATOR.basename(_PS_MODULE_DIR_).DIRECTORY_SEPARATOR.$module->name.DIRECTORY_SEPARATOR.'logo.gif';
+            if (file_exists($logoGifPath) && @filemtime($logoGifPath)) {
                 $module->logo = 'logo.gif';
             }
-            if (@filemtime(_PS_ROOT_DIR_.DIRECTORY_SEPARATOR.basename(_PS_MODULE_DIR_).DIRECTORY_SEPARATOR.$module->name
-                .DIRECTORY_SEPARATOR.'logo.png')) {
+
+            $logoPngPath = _PS_ROOT_DIR_.DIRECTORY_SEPARATOR.basename(_PS_MODULE_DIR_).DIRECTORY_SEPARATOR.$module->name.DIRECTORY_SEPARATOR.'logo.png';
+            if (file_exists($logoPngPath) && @filemtime($logoPngPath)) {
                 $module->logo = 'logo.png';
             }
 
@@ -254,7 +257,7 @@ class AdminModulesCatalogControllerCore extends AdminController
         if ($criteria != 'popularity') {
             usort($list, function($a, $b) use($criteria){
                 if ($criteria == 'name') {
-                    return strnatcasecmp($a->displayName, $b->displayName);
+                    return (strnatcasecmp($a->displayName, $b->displayName)) ? 1 : 0;
                 } else if ($criteria == 'price_increasing') {
                     $priceA = $priceB = 0;
                     if (isset($a->price)) {
@@ -263,7 +266,7 @@ class AdminModulesCatalogControllerCore extends AdminController
                     if (isset($b->price)) {
                         $priceB = $b->price;
                     }
-                    return $priceA > $priceB;
+                    return ($priceA > $priceB) ? 1 : 0;;
                 } else if ($criteria == 'price_decreasing') {
                     $priceA = $priceB = 0;
                     if (isset($a->price)) {
@@ -272,7 +275,7 @@ class AdminModulesCatalogControllerCore extends AdminController
                     if (isset($b->price)) {
                         $priceB = $b->price;
                     }
-                    return $priceA < $priceB;
+                    return ($priceA < $priceB) ? 1 : 0;;
                 }
 
             });

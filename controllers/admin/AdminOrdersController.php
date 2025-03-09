@@ -1698,6 +1698,8 @@ class AdminOrdersControllerCore extends AdminController
                             } else {
                                 $paymentAmount = (float) $paymentAmount;
                             }
+                        } else {
+                            $paymentAmount = $orderTotal;
                         }
 
                         if ($paymentAmount >= 0) {
@@ -3262,7 +3264,7 @@ class AdminOrdersControllerCore extends AdminController
 
             $objHotelBookingDocument = new HotelBookingDocument();
             $objHotelBookingDocument->setFileInfoForUploadedDocument('booking_document');
-            if (!count($objHotelBookingDocument->fileInfo)) {
+            if (!$objHotelBookingDocument->fileInfo || !count($objHotelBookingDocument->fileInfo)) {
                 $this->errors[] = $this->l('Please select a file to upload.');
             } elseif ($objHotelBookingDocument->fileInfo['size'] > Tools::getMaxUploadSize()) {
                 $this->errors[] = $this->l('Uploaded file size is too large.');
@@ -3746,7 +3748,7 @@ class AdminOrdersControllerCore extends AdminController
 
         if ($update_quantity < 0) {
             // If product has attribute, minimal quantity is set with minimal quantity of attribute
-            $minimal_quantity = ($product_informations['product_attribute_id']) ? Attribute::getAttributeMinimalQty($product_informations['product_attribute_id']) : $product->minimal_quantity;
+            $minimal_quantity = ($product_informations['product_attribute_id']) ? ProductAttribute::getAttributeMinimalQty($product_informations['product_attribute_id']) : $product->minimal_quantity;
             die(Tools::jsonEncode(array('error' => sprintf(Tools::displayError('You must add %d minimum quantity', false), $minimal_quantity))));
         } elseif (!$update_quantity) {
             die(Tools::jsonEncode(array('error' => Tools::displayError('You already have the maximum quantity available for this product.', false))));
@@ -4316,7 +4318,7 @@ class AdminOrdersControllerCore extends AdminController
 
         if ($update_quantity < 0) {
             // If product has attribute, minimal quantity is set with minimal quantity of attribute
-            $minimal_quantity = ($product_informations['product_attribute_id']) ? Attribute::getAttributeMinimalQty($product_informations['product_attribute_id']) : $product->minimal_quantity;
+            $minimal_quantity = ($product_informations['product_attribute_id']) ? ProductAttribute::getAttributeMinimalQty($product_informations['product_attribute_id']) : $product->minimal_quantity;
             die(json_encode(array('error' => sprintf(Tools::displayError('You must add %d minimum quantity', false), $minimal_quantity))));
         } elseif (!$update_quantity) {
             die(json_encode(array('error' => Tools::displayError('You already have the maximum quantity available for this product.', false))));
@@ -4693,7 +4695,7 @@ class AdminOrdersControllerCore extends AdminController
     /**
      * This function is called when order is changed (Add/Edit/Delete room on order)
      */
-    public function sendChangedNotification(Order $order = null)
+    public function sendChangedNotification(?Order $order = null)
     {
         if (is_null($order)) {
             $order = new Order(Tools::getValue('id_order'));
@@ -5716,7 +5718,7 @@ class AdminOrdersControllerCore extends AdminController
         )));
     }
 
-    protected function doEditProductValidation(OrderDetail $order_detail, Order $order, OrderInvoice $order_invoice = null)
+    protected function doEditProductValidation(OrderDetail $order_detail, Order $order, ?OrderInvoice $order_invoice = null)
     {
         $this->doEditValidation($order_detail, $order, $order_invoice);
 
@@ -5750,7 +5752,7 @@ class AdminOrdersControllerCore extends AdminController
      * @param OrderInvoice $order_invoice
      * @return bool
      */
-    protected function doEditRoomValidation(OrderDetail $order_detail, Order $order, OrderInvoice $order_invoice = null)
+    protected function doEditRoomValidation(OrderDetail $order_detail, Order $order, ?OrderInvoice $order_invoice = null)
     {
         $this->doEditValidation($order_detail, $order, $order_invoice);
 
@@ -5929,7 +5931,7 @@ class AdminOrdersControllerCore extends AdminController
         }
     }
 
-    protected function doEditValidation(OrderDetail $order_detail, Order $order, OrderInvoice $order_invoice = null)
+    protected function doEditValidation(OrderDetail $order_detail, Order $order, ?OrderInvoice $order_invoice = null)
     {
         if (!Validate::isLoadedObject($order_detail)) {
             die(json_encode(array(
@@ -6579,7 +6581,9 @@ class AdminOrdersControllerCore extends AdminController
                     $this->context->currency = new Currency($objOrder->id_currency);
 
                     $objRoomTypeServiceProduct = new RoomTypeServiceProduct();
-                    $qty = Tools::getValue('service_qty');
+                    if (!$qty = Tools::getValue('service_qty')) {
+                        $qty = array();
+                    }
                     $price = Tools::getValue('service_price');
                     foreach ($selectedServices as $key => $service) {
                         if ($objRoomTypeServiceProduct->isRoomTypeLinkedWithProduct($objHotelBookingDetail->id_product, $service)) {
@@ -6775,7 +6779,7 @@ class AdminOrdersControllerCore extends AdminController
 
                             // Save changes of order
                             $order->update();
-                            if (Validate::isLoadedObject($specific_price)) {
+                            if (isset($specific_price) && Validate::isLoadedObject($specific_price)) {
                                 $specific_price->delete();
                                 unset($specific_price);
                             }
