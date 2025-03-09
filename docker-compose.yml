@@ -1,0 +1,43 @@
+services:
+  apache:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        HOST_UID: "${UID:-1000}"
+        HOST_GID: "${GID:-1000}"
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 80:80
+      - 443:443
+      - 9003:9003
+    networks:
+      - qloapps_network
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: mariadb:11.4.5
+    environment:
+      MYSQL_ROOT_PASSWORD: myrootpassword
+      MYSQL_DATABASE: qloapps
+      MYSQL_USER: qloapps_user
+      MYSQL_PASSWORD: qloapps_pass
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    networks:
+      - qloapps_network
+    restart: always
+
+networks:
+  qloapps_network:
+    driver: bridge
+
+volumes:
+  db_data:
+    driver: local
+
