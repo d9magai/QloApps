@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_group>
+  <group id="Visitor" name="訪問者"/>
+  <group id="Guest" name="ゲスト"/>
+  <group id="Customer" name="顧客"/>
+</entity_group>

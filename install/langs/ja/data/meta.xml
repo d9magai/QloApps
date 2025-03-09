@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_meta>
+  <meta id="404" id_shop="1">
+    <title>ページが見つかりません</title>
+    <description>お探しのページは存在しません</description>
+    <keywords/>
+    <url_rewrite>page-not-found</url_rewrite>
+  </meta>
+  <meta id="best-sales" id_shop="1">
+    <title>人気商品</title>
+    <description>当ホテルの人気商品一覧</description>
+    <keywords/>
+    <url_rewrite>best-sales</url_rewrite>
+  </meta>
+  <meta id="contact" id_shop="1">
+    <title>お問い合わせ</title>
+    <description>お問い合わせフォームをご利用ください</description>
+    <keywords/>
+    <url_rewrite>contact-us</url_rewrite>
+  </meta>
+  <meta id="index" id_shop="1">
+    <title>ホテルプライム</title>
+    <description>快適さと贅沢さが自然と調和する場所！</description>
+    <keywords/>
+    <url_rewrite/>
+  </meta>
+  <meta id="manufacturer" id_shop="1">
+    <title>メーカー一覧</title>
+    <description>メーカー一覧</description>
+    <keywords/>
+    <url_rewrite>manufacturers</url_rewrite>
+  </meta>
+  <meta id="new-products" id_shop="1">
+    <title>新着商品</title>
+    <description>当ホテルの新着商品</description>
+    <keywords/>
+    <url_rewrite>new-products</url_rewrite>
+  </meta>
+  <meta id="password" id_shop="1">
+    <title>パスワードをお忘れの方</title>
+    <description>ログイン用メールアドレスを入力して、新しいパスワードを受け取ってください</description>
+    <keywords/>
+    <url_rewrite>password-recovery</url_rewrite>
+  </meta>
+  <meta id="prices-drop" id_shop="1">
+    <title>特価商品</title>
+    <description>当ホテルの特別価格商品</description>
+    <keywords/>
+    <url_rewrite>prices-drop</url_rewrite>
+  </meta>
+  <meta id="sitemap" id_shop="1">
+    <title>サイトマップ</title>
+    <description>お探しの情報はこちらから</description>
+    <keywords/>
+    <url_rewrite>sitemap</url_rewrite>
+  </meta>
+  <meta id="supplier" id_shop="1">
+    <title>取引先</title>
+    <description>取引先一覧</description>
+    <keywords/>
+    <url_rewrite>supplier</url_rewrite>
+  </meta>
+  <meta id="address" id_shop="1">
+    <title>住所</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>address</url_rewrite>
+  </meta>
+  <meta id="addresses" id_shop="1">
+    <title>住所一覧</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>addresses</url_rewrite>
+  </meta>
+  <meta id="authentication" id_shop="1">
+    <title>ログイン</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>login</url_rewrite>
+  </meta>
+  <meta id="cart" id_shop="1">
+    <title>カート</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>cart</url_rewrite>
+  </meta>
+  <meta id="discount" id_shop="1">
+    <title>割引</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>discount</url_rewrite>
+  </meta>
+  <meta id="history" id_shop="1">
+    <title>注文履歴</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>order-history</url_rewrite>
+  </meta>
+  <meta id="order-detail" id_shop="1">
+    <title>予約詳細</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>order-detail</url_rewrite>
+  </meta>
+  <meta id="identity" id_shop="1">
+    <title>個人情報</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>identity</url_rewrite>
+  </meta>
+  <meta id="my-account" id_shop="1">
+    <title>マイページ</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>my-account</url_rewrite>
+  </meta>
+  <meta id="order-follow" id_shop="1">
+    <title>注文状況確認</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>order-follow</url_rewrite>
+  </meta>
+  <meta id="order-slip" id_shop="1">
+    <title>返金伝票</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>credit-slip</url_rewrite>
+  </meta>
+  <meta id="order" id_shop="1">
+    <title>ご注文</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>order</url_rewrite>
+  </meta>
+  <meta id="search" id_shop="1">
+    <title>検索</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>search</url_rewrite>
+  </meta>
+  <meta id="stores" id_shop="1">
+    <title>店舗情報</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>stores</url_rewrite>
+  </meta>
+  <meta id="order-opc" id_shop="1">
+    <title>クイック注文</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>quick-order</url_rewrite>
+  </meta>
+  <meta id="guest-tracking" id_shop="1">
+    <title>ゲスト注文追跡</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>guest-tracking</url_rewrite>
+  </meta>
+  <meta id="order-confirmation" id_shop="1">
+    <title>注文確認</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>order-confirmation</url_rewrite>
+  </meta>
+  <meta id="products-comparison" id_shop="1">
+    <title>商品比較</title>
+    <description/>
+    <keywords/>
+    <url_rewrite>products-comparison</url_rewrite>
+  </meta>
+</entity_meta>

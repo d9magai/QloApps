@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_contact>
+  <contact id="Webmaster" name="ウェブマスター">
+    <description>このウェブサイトで技術的な問題が発生した場合</description>
+  </contact>
+  <contact id="Customer_service" name="カスタマーサービス">
+    <description>ホテルや予約に関するお問い合わせ</description>
+  </contact>
+</entity_contact>

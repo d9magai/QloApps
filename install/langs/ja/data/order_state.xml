@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_order_state>
+  <order_state id="Awaiting_payment">
+    <name>支払い待ち</name>
+    <template>awaiting_payment</template>
+  </order_state>
+  <order_state id="Payment_accepted">
+    <name>支払い完了</name>
+    <template>payment_accepted</template>
+  </order_state>
+  <order_state id="Processing_in_progress">
+    <name>処理中</name>
+    <template>processing</template>
+  </order_state>
+  <order_state id="Canceled">
+    <name>キャンセル済み</name>
+    <template>order_canceled</template>
+  </order_state>
+  <order_state id="Refund">
+    <name>返金済み</name>
+    <template>refund</template>
+  </order_state>
+  <order_state id="Payment_error">
+    <name>支払いエラー</name>
+    <template>payment_error</template>
+  </order_state>
+  <order_state id="Payment_remotely_accepted">
+    <name>オンライン支払い完了</name>
+    <template>payment_accepted</template>
+  </order_state>
+  <order_state id="Awaiting_remote_payment">
+    <name>オンライン支払い待ち</name>
+    <template/>
+  </order_state>
+  <order_state id="Overbooking_paid">
+    <name>オーバーブッキング（支払済）</name>
+    <template/>
+  </order_state>
+  <order_state id="Overbooking_unpaid">
+    <name>オーバーブッキング（未払い）</name>
+    <template/>
+  </order_state>
+  <order_state id="Overbooking_partial_paid">
+    <name>オーバーブッキング（一部支払い）</name>
+    <template/>
+  </order_state>
+  <order_state id="Partial_payment_accepted">
+    <name>一部支払い受領済み</name>
+    <template>partial_payment_accepted</template>
+  </order_state>
+</entity_order_state>

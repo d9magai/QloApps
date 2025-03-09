@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_supplier_order_state>
+	<supplier_order_state id="creation_in_progress">
+		<name><![CDATA[作成中]]></name>
+	</supplier_order_state>
+	<supplier_order_state id="Order_validated">
+		<name><![CDATA[注文確認済み]]></name>
+	</supplier_order_state>
+	<supplier_order_state id="Pending_receipt">
+		<name><![CDATA[受領待ち]]></name>
+	</supplier_order_state>
+	<supplier_order_state id="Order_received_in_part">
+		<name><![CDATA[一部受領済み]]></name>
+	</supplier_order_state>
+	<supplier_order_state id="Order_received_completely">
+		<name><![CDATA[全て受領済み]]></name>
+	</supplier_order_state>
+	<supplier_order_state id="order_fenced">
+		<name><![CDATA[注文完了]]></name>
+	</supplier_order_state>
+</entity_supplier_order_state>

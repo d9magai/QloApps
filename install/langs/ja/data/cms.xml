@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_cms>
+  <cms id="Policies">
+    <meta_title>ポリシー</meta_title>
+    <meta_description>当ホテルのご予約に関するポリシーをご案内いたします。</meta_description>
+    <meta_keywords>条件, ポリシー, ガイドライン, 規則, 注意事項</meta_keywords>
+    <content>&lt;h2 class=&quot;page-heading bottom-indent&quot;&gt;ホテルポリシー&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;p style=&quot;border-left:2px solid #808080;padding-left:5px;&quot;&gt;このページはデモコンテンツです。実際の商品、サービス、イベントとの類似は偶然の一致です。&lt;/p&gt;
+      &lt;hr /&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;ご予約について:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ご予約には有効なクレジットカード情報が必要です。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;キャンセルポリシーは、部屋タイプや料金プランによって異なります。詳細は各プランをご確認ください。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ご予約内容の変更は、空室状況により、また追加料金が発生する場合がございます。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;チェックイン・チェックアウト:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;チェックイン: 午前11時&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;チェックアウト: 午前10時30分&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;アーリーチェックイン、レイトチェックアウトは、空室状況により追加料金で承ります。事前にご相談ください。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;お支払いについて:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ご宿泊料金はチェックイン時にお支払いいただきます。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;お支払い方法: クレジットカード、現金など&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;チェックイン時に保証金をお預かりする場合がございます。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;キャンセルポリシー:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ご到着7日前までのキャンセルは、全額返金いたします。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;無断キャンセル（ノーショー）の場合は、ご予約いただいた宿泊料金の全額を申し受けます。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;ペットについて:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;事前にご連絡いただければ、ペット同伴でのご宿泊も可能です。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ペット同伴可能な客室には、追加料金が発生する場合があります。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ペットが原因で発生した損害については、お客様にご負担いただきます。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;喫煙について:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;当ホテルは全館禁煙です。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;喫煙は屋外の指定場所でお願いいたします。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;プライバシーポリシー:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;お客様のプライバシーを尊重し、個人情報の保護に努めております。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ご予約時およびご滞在中に収集した情報は、運営目的のみに利用いたします。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;アクセシビリティについて:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;当ホテルは、すべてのお客様に快適にお過ごしいただけるよう、バリアフリー対応の客室や設備をご用意しております。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;具体的なご要望がございましたら、お気軽にお問い合わせください。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;ホテル内でのマナーと行動についてのお願い:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;ジム、スパ、プールなど、ホテル内の各施設のご利用について。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-10&quot;&gt;他のお客様へのご配慮をお願いいたします。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+    </content>
+    <link_rewrite>policies</link_rewrite>
+  </cms>
+  <cms id="Legal_Notice">
+    <meta_title>特定商取引法に基づく表記</meta_title>
+    <meta_description>特定商取引法に基づく表記</meta_description>
+    <meta_keywords>通知, 法的, クレジット</meta_keywords>
+    <content>
+      &lt;h2 class=&quot;page-heading bottom-indent&quot;&gt;&lt;strong&gt;特定商取引法に基づく表記&lt;/strong&gt;&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;p style=&quot;border-left:2px solid #808080;padding-left:5px;&quot;&gt;このページはデモコンテンツです。実際の商品、サービス、イベントとの類似は偶然の一致です。&lt;/p&gt;
+      &lt;hr /&gt;&lt;/div&gt;
+      &lt;p class=&quot;margin-btm-30 page-subheading&quot;&gt;ウェブサイトのご利用について:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;このウェブサイトに掲載されている情報は、一般的な情報提供のみを目的としています。予告なく変更されることがあります。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;当社および第三者は、このウェブサイトに掲載されている情報の正確性、適時性、完全性について、いかなる保証もいたしません。お客様は、これらの情報に不正確な点や誤りがある可能性があることを認識した上で、法律で認められる最大限の範囲で、それらに対する責任を明示的に免除するものとします。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;このウェブサイトの情報の利用はお客様ご自身の責任において行われるものとし、当社は一切の責任を負いません。お客様は、このウェブサイトを通じて提供される製品、サービス、情報がお客様の特定の要件を満たしていることを確認する責任を負うものとします。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;知的財産権:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;このウェブサイトに含まれる素材は、当社が所有またはライセンスを受けています。これには、デザイン、レイアウト、外観、グラフィックなどが含まれますが、これらに限定されません。複製は、著作権表示に従って禁止されています。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;このウェブサイトに表示されている商標のうち、運営者の財産でないもの、または運営者にライセンスされていないものは、ウェブサイト上で明示的に認められています。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;プライバシーポリシー:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;... &lt;li class=&quot;margin-btm-20&quot;&gt;お客様のプライバシーは重要です。お客様の個人情報の取り扱いについては、プライバシーポリシーをご確認ください。&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class=&quot;page-subheading&quot;&gt;責任の制限:&lt;/p&gt;
+      &lt;ul class=&quot;margin-btm-30&quot;&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;当社および第三者は、このウェブサイトに掲載されている情報の正確性、適時性、完全性について、いかなる保証もいたしません。お客様は、これらの情報に不正確な点や誤りがある可能性があることを認識した上で、法律で認められる最大限の範囲で、それらに対する責任を明示的に免除するものとします。&lt;/li&gt;
+      &lt;li class=&quot;margin-btm-20&quot;&gt;このウェブサイトの情報の利用はお客様ご自身の責任において行われるものとし、当社は一切の責任を負いません。お客様は、このウェブサイトを通じて提供される製品、サービス、情報がお客様の特定の要件を満たしていることを確認する責任を負うものとします。&lt;/li&gt;
+      &lt;/ul&gt;
+    </content>
+    <link_rewrite>legal-notice</link_rewrite>
+  </cms>
+  <cms id="Terms_and_conditions_of_use">
+    <meta_title>利用規約</meta_title>
+    <meta_description>当ホテルの利用規約</meta_description>
+    <meta_keywords>規約, 利用, 返品, 変更</meta_keywords>
+    <content>
+      <h2 class="page-heading bottom-indent">利用規約</h2>
+      <div>
+        <p style="border-left:2px solid #808080;padding-left:5px;">このページは、説明のためのデモコンテンツです。実際の製品、サービス、イベントには一切関係ありませんので、予めご了承ください。</p>
+        <hr />
+      </div>
+      <div>
+        <h3 class="page-subheading"><strong>キャンセルポリシー：</strong></h3>
+        <div>
+          <ul>
+            <li><span>無料キャンセル：ご到着の48時間前まで（標準料金の場合）。</span></li>
+            <li><span>返金不可の料金で予約した場合、キャンセルまたは変更はできません。</span></li>
+            <li><span>ご到着24時間以内のキャンセルには、1泊分の宿泊料金を申し受けます。</span></li>
+          </ul>
+        </div>
+        <br />
+        <h3 class="page-subheading"><strong>予約変更について：</strong></h3>
+        <div>
+          <ul>
+            <li><span>予約後に日程変更をする場合、$25の手数料がかかる場合があります。</span></li>
+            <li><span>部屋のタイプや人数の変更は、ホテルの空き状況により異なります。</span></li>
+          </ul>
+        </div>
+        <br />
+        <h3 class="page-subheading"><strong>お客様へのお願い:</strong></h3>
+        <div>
+          <ul>
+            <li><span>チェックイン時に、有効な顔写真付き身分証明書をご提示ください。</span></li>
+            <li><span>各部屋タイプの最大宿泊人数は大人2名です。</span></li>
+            <li><span>客室および館内公共エリアは全面禁煙です。</span></li>
+          </ul>
+        </div>
+      </div>
+    </content>
+    <link_rewrite>terms-and-conditions-of-use</link_rewrite>
+  </cms>
+
+  <cms id="About_us">
+    <meta_title>ホテルについて</meta_title>
+    <meta_description>ホテルについて詳しく知る</meta_description>
+    <meta_keywords>ホテル, 情報, 概要</meta_keywords>
+    <content>
+      <h2 class="page-heading bottom-indent">ホテルについて</h2>
+      <div>
+        <p style="border-left:2px solid #808080;padding-left:5px;">このページは、説明のためのデモコンテンツです。実際の製品、サービス、イベントには一切関係ありませんので、予めご了承ください。</p>
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8">
+          <div class="cms-block">
+            <div class="margin-btm-30">
+              <p class="dark">ようこそ、当ホテルへ。お客様に最高のひとときをお過ごしいただけるよう、細部にまで心を配った、安らぎと贅沢な空間をご提供いたします。ビジネス、レジャー、特別なイベントなど、お客様のあらゆるご要望にお応えいたします。</p>
+            </div>
+            <div class="margin-btm-30">
+              <p class="page-subheading">当ホテルのストーリー</p>
+              <p>穏やかな環境と豊かな地元の文化にインスパイアされた当ホテルは、モダンな快適さと伝統的なエレガンスが融合した空間です。お客様に安らぎと快適さをご提供できるよう、客室のデザイン、サービス、細部へのこだわりを追求しています。</p>
+            </div>
+            <div class="margin-btm-30">
+              <p class="page-subheading">当ホテルのミッション</p>
+              <p>お客様一人ひとりのニーズに合わせた、きめ細やかなサービスと贅沢なアメニティをご提供し、お客様にとって「第二の我が家」となれるよう努めています。お客様の快適さとご満足を最優先に、常に期待を超えるサービスを目指しています。</p>
+            </div>
+            <div class="margin-btm-30">
+              <p class="page-subheading">当ホテルのアメニティ</p>
+              <p>ご滞在中は、最高のアメニティをご利用ください。息をのむような景色を望むエレガントな客室とスイートでリラックス。ホテル内のレストランでおいしい料理を味わい、スタイリッシュなバーでカクテルを片手にくつろぎ、最先端のスパとフィットネスセンターでリフレッシュ。穏やかな屋外プール、緑豊かな庭園、最新のビジネス施設もご利用いただけます。</p>
+            </div>
+            <div class="margin-btm-30">
+              <p class="page-subheading">当ホテルのチーム</p>
+              <p>ホスピタリティ精神あふれる専門スタッフが、お客様を心を込めておもてなしいたします。お客様一人ひとりに合わせたコンシェルジュサービスから、きめ細やかなハウスキーピングまで、すべてのスタッフがお客様の滞在を特別なものにするために尽力いたします。</p>
+            </div>
+            <div class="margin-btm-30">
+              <p class="page-subheading">ぜひお越しください</p>
+              <p>当ホテルならではの魅力とエレガンスをぜひご体験ください。レジャーでもビジネスでも、温かいおもてなしと豪華な施設でお客様をお迎えいたします。今すぐご予約いただき、思い出に残るご滞在をお楽しみください。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="cms-box">
+            <p class="page-subheading">お客様の声</p>
+            <div class="testimonials">
+              <div class="inner">
+                <span class="before">“</span>Hotel Primeは、あらゆる面で私の期待を上回りました。エグゼクティブルームは豪華で、湖の素晴らしい景色とともに、静かな隠れ家のようでした。細部にまで配慮されたサービスが、滞在を本当に特別なものにしました。ビジネスでもレジャーでも、快適さと洗練された雰囲気を求める旅行者に強くお勧めします<span class="after">”</span>
+              </div>
+            </div>
+            <p><strong class="dark">クラーク・ケント</strong></p>
+            <div class="testimonials">
+              <div class="inner">
+                <span class="before">“</span>頻繁に旅行する私としては、Hotel Primeはその静かな環境と優れたホスピタリティで群を抜いています。ビュールームは、素晴らしい市街地の景色と快適な宿泊施設を提供してくれました<span class="after">”</span>
+              </div>
+            </div>
+            <p><strong class="dark">ジョン・ドウ</strong></p>
+          </div>
+        </div>
+      </div>
+    </content>
+    <link_rewrite>about-us</link_rewrite>
+  </cms>
+  <cms id="Secure_payment">
+    <meta_title>安全な支払い</meta_title>
+    <meta_description>私たちの安全な支払い方法</meta_description>
+    <meta_keywords>安全な支払い, ssl, visa, mastercard, paypal</meta_keywords>
+    <content>
+      <h2 class="page-heading bottom-indent">安全な支払い</h2>
+      <div>
+        <p style="border-left:2px solid #808080;padding-left:5px;">このページは、説明のためのデモコンテンツです。実際の製品、サービス、イベントには一切関係ありませんので、予めご了承ください。</p>
+        <hr />
+      </div>
+      <div>私たちは、お客様の安全を最優先に考えています。当ウェブサイトで行われるすべての取引は、SSL（Secure Socket Layer）技術で暗号化され、個人情報と支払い詳細を保護しています。主要なクレジットカードでの支払いを受け付けており、安全な環境でシームレスな予約体験を提供しています。支払いのセキュリティについてのご質問がある場合は、カスタマーサポートチームまでご連絡ください。</div>
+    </content>
+    <link_rewrite>secure-payment</link_rewrite>
+  </cms>
+</entity_cms>

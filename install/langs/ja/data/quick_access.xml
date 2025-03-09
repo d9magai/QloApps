@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_quick_access>
+  <quick_access id="Home" name="ホーム"/>
+  <quick_access id="My_Shop" name="マイショップ"/>
+  <quick_access id="New_product" name="新規客室タイプ"/>
+  <quick_access id="New_voucher" name="新規クーポン"/>
+</entity_quick_access>

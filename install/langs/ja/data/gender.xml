@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_gender>
+  <gender id="Mr" name="男性"/>
+  <gender id="Mrs" name="女性"/>
+</entity_gender>

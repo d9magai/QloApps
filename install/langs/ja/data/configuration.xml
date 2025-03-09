@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_configuration>
+  <configuration id="PS_INVOICE_PREFIX">
+    <value>#請</value>
+  </configuration>
+  <configuration id="PS_DELIVERY_PREFIX">
+    <value>#配</value>
+  </configuration>
+  <configuration id="PS_RETURN_PREFIX">
+    <value>#返</value>
+  </configuration>
+  <configuration id="PS_SEARCH_BLACKLIST">
+    <value>あ|い|う|え|お|これ|それ|あれ|この|その|あの|ここ|そこ|あそこ|こちら|どこ|だれ|なに|なん|何|私|貴方|貴方方|我々|私達|あの人|あのかた|彼女|彼|です|あります|おります|います|は|が|の|に|を|で|え|から|まで|より|も|どの|と|し|それで|しかし|なら|ば|なければ|ならない|できる|する|できない|せる|させる|れる|られる|ない</value>
+  </configuration>
+  <configuration id="PS_META_KEYWORDS">
+    <value>0</value>
+  </configuration>
+  <configuration id="PS_CUSTOMER_SERVICE_SIGNATURE">
+    <value>お客様各位&#xD;
+      &#xD;
+      何卒よろしくお願い申し上げます。
+      &#xD;
+      カスタマーサービス</value>
+  </configuration>
+</entity_configuration>
